@@ -4,11 +4,17 @@ Kasutame Google Colabi ja DuckDBd selleks, et andmeid k채ttesaada (loader) ja n�
 Kogu rakendus on 2 Yupiter notebooki
 
 # /loader
+**proovitoo.ipynb**
+K채ivitamiseks teita oma draivi Colab_TAI_Andmed kataloog v천i eemalda viide failile 
+engine = create_engine(f'duckdb:///{db_path}') asemel engine = create_engine() siis on t채iesti stateless in-memory lahendus.
 
+vajuta nuppu ja sa saaks m채ngida sellega 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matikukk/tai_avaandmed/blob/main/loader/proovitoo.ipynb)
 
 # /client
+**tai_avaandmete_p채ringud.ipynb**
+vajuta nuppu ja sa saaks m채ngida sellega
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matikukk/tai_avaandmed/blob/main/client/tai_avaandmete_p채ringud.ipynb)
 
 # /data
-Siin on TAI veebist alla laetud columnar andmed parquet vormingus
+Siin kataloogis on on TAI veebist alla laetud columnar andmed parquet vormingus
