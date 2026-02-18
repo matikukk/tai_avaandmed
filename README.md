@@ -9,11 +9,13 @@ Käivitamiseks teita oma draivi Colab_TAI_Andmed kataloog või eemalda viide fai
 engine = create_engine(f'duckdb:///{db_path}') asemel engine = create_engine() siis on täiesti stateless in-memory lahendus.
 
 vajuta nuppu ja sa saaks mängida sellega 
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matikukk/tai_avaandmed/blob/main/loader/proovitoo.ipynb)
 
 # /client
 **tai_avaandmete_päringud.ipynb**
 vajuta nuppu ja sa saaks mängida sellega
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matikukk/tai_avaandmed/blob/main/client/tai_avaandmete_päringud.ipynb)
 
 # /data
