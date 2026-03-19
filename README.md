@@ -5,7 +5,7 @@ Kogu rakendus on 2 Yupiter notebooki
 
 # /loader
 **proovitoo.ipynb**
-Käivitamiseks teita oma draivi Colab_TAI_Andmed kataloog või eemalda viide failile 
+Käivitamiseks tekita oma draivi Colab_TAI_Andmed kataloog või eemalda viide failile 
 engine = create_engine(f'duckdb:///{db_path}') asemel engine = create_engine() siis on täiesti stateless in-memory lahendus.
 
 vajuta nuppu ja sa saaks mängida sellega 
