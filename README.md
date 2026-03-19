@@ -14,7 +14,7 @@ vajuta nuppu ja sa saaks mängida sellega
 
 # /client
 **tai_avaandmete_päringud.ipynb**
-vajuta nuppu ja sa saaks mängida sellega
+vajuta nuppu ja sa saaks mängida sellega. Andmed on eellaetud minu githubi ./data kataloogi ülaltoodud loaderit kasutades.  
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matikukk/tai_avaandmed/blob/main/client/tai_avaandmete_päringud.ipynb)
 
